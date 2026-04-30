@@ -6181,42 +6181,6 @@
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1777554092645</Id>
-					<Name><![CDATA[connector30]]></Name>
-					<X>4440</X><Y>-1560</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[tsc_sverdlovsky]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[selectSouth]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[SelectOutput]]></ClassName>
-						<ItemName><![CDATA[outF]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[tsc_sverdlovsky]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[toRoadWestBack]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
-						<ClassName><![CDATA[CarMoveTo]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>140</X><Y>-40</Y></Point>
-						<Point><X>20</X><Y>-250</Y></Point>
-						<Point><X>-880</X><Y>-160</Y></Point>
-						<Point><X>-990</X><Y>70</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
 					<Id>1777554269109</Id>
 					<Name><![CDATA[connector103]]></Name>
 					<X>2830</X><Y>-1130</Y>
@@ -6353,8 +6317,8 @@
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>270</X><Y>-770</Y></Point>
-						<Point><X>-170</X><Y>-1250</Y></Point>
-						<Point><X>-4130</X><Y>-1250</Y></Point>
+						<Point><X>-90</X><Y>-1170</Y></Point>
+						<Point><X>-4130</X><Y>-1170</Y></Point>
 						<Point><X>-4330</X><Y>-370</Y></Point>
 						<Point><X>-4200</X><Y>-300</Y></Point>
 					</Points>
@@ -6390,8 +6354,8 @@
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>130</X><Y>-730</Y></Point>
-						<Point><X>-90</X><Y>-950</Y></Point>
-						<Point><X>-2810</X><Y>-950</Y></Point>
+						<Point><X>-90</X><Y>-870</Y></Point>
+						<Point><X>-2890</X><Y>-870</Y></Point>
 						<Point><X>-3150</X><Y>-390</Y></Point>
 						<Point><X>-3120</X><Y>-190</Y></Point>
 					</Points>
@@ -6399,7 +6363,7 @@
 				<Connector>
 					<Id>1777555474947</Id>
 					<Name><![CDATA[connector41]]></Name>
-					<X>4360</X><Y>-1480</Y>
+					<X>4440</X><Y>-1560</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6407,12 +6371,12 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[tsc_sverdlovsky]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[toSouth]]></ItemName>
+						<ItemName><![CDATA[selectSouth]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
-						<ClassName><![CDATA[CarMoveTo]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[SelectOutput]]></ClassName>
+						<ItemName><![CDATA[outF]]></ItemName>
 					</SourceConnectableItemReference>
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[tsc_sverdlovsky]]></PackageName>
@@ -6426,9 +6390,9 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>80</X><Y>0</Y></Point>
-						<Point><X>-230</X><Y>340</Y></Point>
-						<Point><X>-170</X><Y>450</Y></Point>
+						<Point><X>0</X><Y>80</Y></Point>
+						<Point><X>-310</X><Y>420</Y></Point>
+						<Point><X>-250</X><Y>530</Y></Point>
 					</Points>
 				</Connector>
 			</Connectors>
