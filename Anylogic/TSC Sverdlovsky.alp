@@ -2195,6 +2195,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>70</X><Y>0</Y></Point>
 						<Point><X>70</X><Y>-250</Y></Point>
 					</Points>
 				</Connector>
@@ -2228,7 +2229,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-100</X><Y>0</Y></Point>
+						<Point><X>-60</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -2327,7 +2328,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-3670</X><Y>0</Y></Point>
+						<Point><X>-3910</X><Y>0</Y></Point>
 						<Point><X>-3910</X><Y>-510</Y></Point>
 						<Point><X>-3960</X><Y>-510</Y></Point>
 					</Points>
@@ -2461,8 +2462,8 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>200</X><Y>240</Y></Point>
-						<Point><X>4450</X><Y>250</Y></Point>
+						<Point><X>0</X><Y>250</Y></Point>
+						<Point><X>4490</X><Y>250</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -2501,7 +2502,7 @@
 				<Connector>
 					<Id>1776413303214</Id>
 					<Name><![CDATA[connector37]]></Name>
-					<X>1650</X><Y>-740</Y>
+					<X>1650</X><Y>-700</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2514,7 +2515,7 @@
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
 						<ClassName><![CDATA[SelectOutput5]]></ClassName>
-						<ItemName><![CDATA[out3]]></ItemName>
+						<ItemName><![CDATA[out5]]></ItemName>
 					</SourceConnectableItemReference>
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[tsc_sverdlovsky]]></PackageName>
@@ -2528,13 +2529,14 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>160</X><Y>160</Y></Point>
+						<Point><X>0</X><Y>120</Y></Point>
+						<Point><X>130</X><Y>120</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1776413305639</Id>
 					<Name><![CDATA[connector38]]></Name>
-					<X>1850</X><Y>-580</Y>
+					<X>1820</X><Y>-580</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2561,7 +2563,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>40</X><Y>0</Y></Point>
+						<Point><X>70</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -2726,7 +2728,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-90</X><Y>0</Y></Point>
+						<Point><X>-100</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -2990,7 +2992,8 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>140</X><Y>80</Y></Point>
+						<Point><X>110</X><Y>80</Y></Point>
+						<Point><X>180</X><Y>80</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -3023,7 +3026,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>410</X><Y>0</Y></Point>
+						<Point><X>450</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -3056,13 +3059,14 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>240</X><Y>70</Y></Point>
+						<Point><X>210</X><Y>70</Y></Point>
+						<Point><X>280</X><Y>70</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1776759501259</Id>
 					<Name><![CDATA[connector102]]></Name>
-					<X>3340</X><Y>-670</Y>
+					<X>3380</X><Y>-670</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3089,7 +3093,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>130</X><Y>0</Y></Point>
+						<Point><X>90</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -3815,6 +3819,8 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>30</X><Y>0</Y></Point>
+						<Point><X>30</X><Y>100</Y></Point>
 						<Point><X>80</X><Y>100</Y></Point>
 					</Points>
 				</Connector>
@@ -4079,7 +4085,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>60</X><Y>60</Y></Point>
+						<Point><X>0</X><Y>60</Y></Point>
 						<Point><X>680</X><Y>60</Y></Point>
 					</Points>
 				</Connector>
@@ -4344,6 +4350,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-79</X><Y>197</Y></Point>
 						<Point><X>-100</X><Y>250</Y></Point>
 					</Points>
 				</Connector>
@@ -4575,13 +4582,15 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>10</X><Y>0</Y></Point>
+						<Point><X>10</X><Y>60</Y></Point>
 						<Point><X>30</X><Y>60</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1776782181935</Id>
 					<Name><![CDATA[connector130]]></Name>
-					<X>1750</X><Y>-580</Y>
+					<X>1750</X><Y>-520</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4608,7 +4617,9 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>60</X><Y>0</Y></Point>
+						<Point><X>10</X><Y>0</Y></Point>
+						<Point><X>10</X><Y>-60</Y></Point>
+						<Point><X>30</X><Y>-60</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -4707,8 +4718,8 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>70</X><Y>70</Y></Point>
-						<Point><X>1130</X><Y>70</Y></Point>
+						<Point><X>1160</X><Y>0</Y></Point>
+						<Point><X>1160</X><Y>-100</Y></Point>
 						<Point><X>1190</X><Y>-100</Y></Point>
 					</Points>
 				</Connector>
@@ -4742,7 +4753,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>150</X><Y>0</Y></Point>
+						<Point><X>140</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -4775,7 +4786,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>170</X><Y>-350</Y></Point>
+						<Point><X>0</X><Y>-350</Y></Point>
 						<Point><X>350</X><Y>-350</Y></Point>
 					</Points>
 				</Connector>
@@ -4875,8 +4886,9 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>450</X><Y>0</Y></Point>
-						<Point><X>580</X><Y>280</Y></Point>
+						<Point><X>550</X><Y>0</Y></Point>
+						<Point><X>550</X><Y>280</Y></Point>
+						<Point><X>620</X><Y>280</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -4942,7 +4954,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>210</X><Y>-410</Y></Point>
+						<Point><X>0</X><Y>-410</Y></Point>
 						<Point><X>1480</X><Y>-410</Y></Point>
 					</Points>
 				</Connector>
@@ -4976,6 +4988,8 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>40</X><Y>0</Y></Point>
+						<Point><X>40</X><Y>70</Y></Point>
 						<Point><X>70</X><Y>70</Y></Point>
 					</Points>
 				</Connector>
@@ -6434,9 +6448,10 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>50</X><Y>50</Y></Point>
-						<Point><X>2780</X><Y>50</Y></Point>
-						<Point><X>2840</X><Y>110</Y></Point>
+						<Point><X>0</X><Y>50</Y></Point>
+						<Point><X>2810</X><Y>50</Y></Point>
+						<Point><X>2810</X><Y>110</Y></Point>
+						<Point><X>2880</X><Y>110</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -6469,9 +6484,10 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>140</X><Y>280</Y></Point>
-						<Point><X>3360</X><Y>280</Y></Point>
-						<Point><X>3420</X><Y>310</Y></Point>
+						<Point><X>0</X><Y>280</Y></Point>
+						<Point><X>3390</X><Y>280</Y></Point>
+						<Point><X>3390</X><Y>310</Y></Point>
+						<Point><X>3460</X><Y>310</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -6542,8 +6558,8 @@
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>30</X><Y>0</Y></Point>
 						<Point><X>30</X><Y>-150</Y></Point>
-						<Point><X>-620</X><Y>-150</Y></Point>
-						<Point><X>-620</X><Y>-80</Y></Point>
+						<Point><X>-630</X><Y>-150</Y></Point>
+						<Point><X>-630</X><Y>-80</Y></Point>
 						<Point><X>-540</X><Y>-80</Y></Point>
 					</Points>
 				</Connector>
@@ -7970,7 +7986,7 @@
 				<EmbeddedObject>
 					<Id>1775207911765</Id>
 					<Name><![CDATA[toEntranceNorth]]></Name>
-					<X>4750</X><Y>-400</Y>
+					<X>4790</X><Y>-400</Y>
 					<Label><X>-30</X><Y>40</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13927,7 +13943,7 @@
 					<Id>1776411490417</Id>
 					<Name><![CDATA[selectUp1_West]]></Name>
 					<X>1300</X><Y>-790</Y>
-					<Label><X>-60</X><Y>-20</Y></Label>
+					<Label><X>-25</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -14209,7 +14225,7 @@
 					<Id>1776413026489</Id>
 					<Name><![CDATA[selectNorth]]></Name>
 					<X>1620</X><Y>-790</Y>
-					<Label><X>-28</X><Y>114</Y></Label>
+					<Label><X>40</X><Y>90</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -14255,7 +14271,7 @@
 						<Parameter>
 							<Name><![CDATA[probability3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[0.4]]></Code>
+								<Code><![CDATA[0]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -14267,7 +14283,7 @@
 						<Parameter>
 							<Name><![CDATA[probability5]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[0]]></Code>
+								<Code><![CDATA[0.4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -14435,7 +14451,7 @@
 				<EmbeddedObject>
 					<Id>1776413232093</Id>
 					<Name><![CDATA[toNorth]]></Name>
-					<X>1810</X><Y>-590</Y>
+					<X>1780</X><Y>-590</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14827,7 +14843,7 @@
 				<EmbeddedObject>
 					<Id>1776415366623</Id>
 					<Name><![CDATA[toCenterEast]]></Name>
-					<X>2060</X><Y>-760</Y>
+					<X>2050</X><Y>-760</Y>
 					<Label><X>-20</X><Y>40</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15759,7 +15775,7 @@
 				<EmbeddedObject>
 					<Id>1776417054680</Id>
 					<Name><![CDATA[toSouthEast]]></Name>
-					<X>3300</X><Y>-680</Y>
+					<X>3340</X><Y>-680</Y>
 					<Label><X>-15</X><Y>40</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17886,7 +17902,7 @@
 				<EmbeddedObject>
 					<Id>1776763011197</Id>
 					<Name><![CDATA[enterNorth]]></Name>
-					<X>1730</X><Y>-590</Y>
+					<X>1730</X><Y>-530</Y>
 					<Label><X>-25</X><Y>30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27326,6 +27342,38 @@
 					<Height>5</Height>
 					<Rotation>90.0</Rotation>
 				</RectangleNode>
+				<TargetLine>
+					<Id>1777808645739</Id>
+					<Name><![CDATA[targetExitSouth]]></Name>
+					<X>669</X><Y>52</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-16744448</LineColor>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-10</X><Y>0</Y></Point>
+					</Points>
+				</TargetLine>
+				<TargetLine>
+					<Id>1777808649966</Id>
+					<Name><![CDATA[targetEnterSouth]]></Name>
+					<X>659</X><Y>61</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-16744448</LineColor>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>10</X><Y>0</Y></Point>
+					</Points>
+				</TargetLine>
 			</Presentation>
 
 				</Level>
