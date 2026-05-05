@@ -24374,8 +24374,7 @@
 						<Parameter>
 							<Name><![CDATA[onExitCopy]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.isDriver = true;
-agent.myCar = original;]]></Code>
+								<Code><![CDATA[agent.isDriver = true;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -27662,7 +27661,7 @@ agent.myCar = original;]]></Code>
 				<Pathway>
 					<Id>1777791131085</Id>
 					<Name><![CDATA[path1]]></Name>
-					<X>310</X><Y>70</Y>
+					<X>311</X><Y>70</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27672,14 +27671,14 @@ agent.myCar = original;]]></Code>
 					<LineColor>-16744448</LineColor>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>5</X><Y>0</Y></Point>
-						<Point><X>-5</X><Y>0</Y></Point>
-						<Point><X>0</X><Y>95</Y></Point>
-						<Point><X>5</X><Y>90</Y></Point>
-						<Point><X>-5</X><Y>100</Y></Point>
-						<Point><X>135</X><Y>95</Y></Point>
-						<Point><X>135</X><Y>87</Y></Point>
-						<Point><X>135</X><Y>103</Y></Point>
+						<Point><X>4</X><Y>0</Y></Point>
+						<Point><X>-4</X><Y>0</Y></Point>
+						<Point><X>0</X><Y>103</Y></Point>
+						<Point><X>4</X><Y>99</Y></Point>
+						<Point><X>-4</X><Y>107</Y></Point>
+						<Point><X>124</X><Y>103</Y></Point>
+						<Point><X>124</X><Y>99</Y></Point>
+						<Point><X>124</X><Y>107</Y></Point>
 					</Points>
 				</Pathway>
 				<RectangleWall>
@@ -28878,7 +28877,7 @@ agent.myCar = original;]]></Code>
 					</Slope>
 
 					<Width>101</Width>
-					<Height>10</Height>
+					<Height>7</Height>
 					<Rotation>0.0</Rotation>
 				</RectangleNode>
 			</Presentation>
@@ -29357,27 +29356,6 @@ agent.myCar = original;]]></Code>
 						<ParameterEditor>
 							<Id>1777994100707</Id>
 							<EditorContolType>CHECK_BOX</EditorContolType>
-							<MinSliderValue><![CDATA[0]]></MinSliderValue>
-							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
-							<DelimeterType>NO_DELIMETER</DelimeterType>
-						</ParameterEditor>
-					</Properties>                 
-				</Variable>
-				<Variable Class="Parameter">
-					<Id>1777994946244</Id>
-					<Name><![CDATA[myCar]]></Name>
-					<X>50</X><Y>100</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
-						<Type><![CDATA[Car1]]></Type>
-						<UnitType><![CDATA[NONE]]></UnitType>
-						<SdArray>false</SdArray>
-						<ParameterEditor>
-							<Id>1777994946242</Id>
-							<EditorContolType>TEXT_BOX</EditorContolType>
 							<MinSliderValue><![CDATA[0]]></MinSliderValue>
 							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
 							<DelimeterType>NO_DELIMETER</DelimeterType>
