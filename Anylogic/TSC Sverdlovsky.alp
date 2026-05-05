@@ -119,7 +119,7 @@
 				<Connector>
 					<Id>1775206849781</Id>
 					<Name><![CDATA[connector8]]></Name>
-					<X>110</X><Y>-1320</Y>
+					<X>370</X><Y>-1320</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2229,7 +2229,7 @@
 				<Connector>
 					<Id>1776410255111</Id>
 					<Name><![CDATA[connector16]]></Name>
-					<X>300</X><Y>-1320</Y>
+					<X>560</X><Y>-1320</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2247,17 +2247,17 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[tsc_sverdlovsky]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[selectLot0]]></ItemName>
+						<ItemName><![CDATA[toNorthWestBack]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[SelectOutput]]></ClassName>
+						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
+						<ClassName><![CDATA[CarMoveTo]]></ClassName>
 						<ItemName><![CDATA[in]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>0</X><Y>-150</Y></Point>
-						<Point><X>90</X><Y>-150</Y></Point>
+						<Point><X>0</X><Y>-140</Y></Point>
+						<Point><X>120</X><Y>-140</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -2282,72 +2282,6 @@
 						<PackageName><![CDATA[tsc_sverdlovsky]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
 						<ItemName><![CDATA[toEntranceNorth]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
-						<ClassName><![CDATA[CarMoveTo]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-60</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1776410700434</Id>
-					<Name><![CDATA[connector18]]></Name>
-					<X>480</X><Y>-1550</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[tsc_sverdlovsky]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[toLot0]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
-						<ClassName><![CDATA[CarMoveTo]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[tsc_sverdlovsky]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[selectLot0]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[SelectOutput]]></ClassName>
-						<ItemName><![CDATA[outT]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-70</X><Y>80</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1776410722800</Id>
-					<Name><![CDATA[connector19]]></Name>
-					<X>580</X><Y>-1550</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[tsc_sverdlovsky]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[Lot0]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Delay]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[tsc_sverdlovsky]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[toLot0]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
@@ -2462,7 +2396,7 @@
 				<Connector>
 					<Id>1776412157230</Id>
 					<Name><![CDATA[connector33]]></Name>
-					<X>340</X><Y>-1550</Y>
+					<X>590</X><Y>-1550</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2480,23 +2414,23 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[tsc_sverdlovsky]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[selectLot0]]></ItemName>
+						<ItemName><![CDATA[toNorthWestBack]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[SelectOutput]]></ClassName>
+						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
+						<ClassName><![CDATA[CarMoveTo]]></ClassName>
 						<ItemName><![CDATA[in]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>0</X><Y>80</Y></Point>
-						<Point><X>50</X><Y>80</Y></Point>
+						<Point><X>0</X><Y>90</Y></Point>
+						<Point><X>90</X><Y>90</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1776412434325</Id>
 					<Name><![CDATA[connector9]]></Name>
-					<X>300</X><Y>-1240</Y>
+					<X>560</X><Y>-1240</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2524,7 +2458,7 @@
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>0</X><Y>290</Y></Point>
-						<Point><X>3120</X><Y>290</Y></Point>
+						<Point><X>2860</X><Y>290</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -2825,105 +2759,6 @@
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>70</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1776771389450</Id>
-					<Name><![CDATA[connector20]]></Name>
-					<X>400</X><Y>-1460</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[tsc_sverdlovsky]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[selectLot0]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[SelectOutput]]></ClassName>
-						<ItemName><![CDATA[outF]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[tsc_sverdlovsky]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[toNorthWestBack]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
-						<ClassName><![CDATA[CarMoveTo]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>280</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1776771392194</Id>
-					<Name><![CDATA[connector21]]></Name>
-					<X>510</X><Y>-1540</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[tsc_sverdlovsky]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[toLot0]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
-						<ClassName><![CDATA[CarMoveTo]]></ClassName>
-						<ItemName><![CDATA[outWayNotFound]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[tsc_sverdlovsky]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[toNorthWestBack]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
-						<ClassName><![CDATA[CarMoveTo]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>170</X><Y>80</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1776771394077</Id>
-					<Name><![CDATA[connector45]]></Name>
-					<X>620</X><Y>-1550</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[tsc_sverdlovsky]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[Lot0]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Delay]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[tsc_sverdlovsky]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[toNorthWestBack]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
-						<ClassName><![CDATA[CarMoveTo]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>60</X><Y>90</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -3460,7 +3295,7 @@
 				<Connector>
 					<Id>1776782638668</Id>
 					<Name><![CDATA[connector163]]></Name>
-					<X>300</X><Y>-1260</Y>
+					<X>560</X><Y>-1260</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3487,9 +3322,9 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>1160</X><Y>0</Y></Point>
-						<Point><X>1160</X><Y>-100</Y></Point>
-						<Point><X>1290</X><Y>-100</Y></Point>
+						<Point><X>900</X><Y>0</Y></Point>
+						<Point><X>900</X><Y>-100</Y></Point>
+						<Point><X>1030</X><Y>-100</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -3654,7 +3489,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-580</X><Y>0</Y></Point>
+						<Point><X>-320</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -7160,18 +6995,18 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[tsc_sverdlovsky]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[selectLot0]]></ItemName>
+						<ItemName><![CDATA[toNorthWestBack]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[SelectOutput]]></ClassName>
+						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
+						<ClassName><![CDATA[CarMoveTo]]></ClassName>
 						<ItemName><![CDATA[in]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-1000</X><Y>0</Y></Point>
-						<Point><X>-1000</X><Y>-150</Y></Point>
-						<Point><X>-980</X><Y>-150</Y></Point>
+						<Point><X>-750</X><Y>0</Y></Point>
+						<Point><X>-750</X><Y>-140</Y></Point>
+						<Point><X>-690</X><Y>-140</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -8035,7 +7870,7 @@
 				<EmbeddedObject>
 					<Id>1774866534845</Id>
 					<Name><![CDATA[sourceNorth]]></Name>
-					<X>80</X><Y>-1320</Y>
+					<X>340</X><Y>-1320</Y>
 					<Label><X>-15</X><Y>25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8233,7 +8068,7 @@
 				<EmbeddedObject>
 					<Id>1775206834625</Id>
 					<Name><![CDATA[selectUp1]]></Name>
-					<X>270</X><Y>-1330</Y>
+					<X>530</X><Y>-1330</Y>
 					<Label><X>-55</X><Y>30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8335,76 +8170,6 @@
 					<InitializationType>SPECIFIED_NUMBER</InitializationType>
 					<InitializationDatabaseTableQuery>
 						<Id>1775206834623</Id>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
-					<Id>1775207056524</Id>
-					<Name><![CDATA[selectLot0]]></Name>
-					<X>380</X><Y>-1480</Y>
-					<Label><X>-10</X><Y>-20</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[SelectOutput]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-							<ClassName><![CDATA[SelectOutput]]></ClassName>
-							<ItemName><![CDATA[1412336242931]]></ItemName>
-						</GenericParameterSubstituteReference>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[conditionIsProbabilistic]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[condition]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[probability]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onAtEnter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[choiceIsVolatile]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEnter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExitTrue]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExitFalse]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialLocationType>XYZ</InitialLocationType>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<Id>1775207056522</Id>
 						<TableReference>
 						</TableReference>
 					</InitializationDatabaseTableQuery>
@@ -13714,213 +13479,6 @@
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1776410565156</Id>
-					<Name><![CDATA[Lot0]]></Name>
-					<X>580</X><Y>-1570</Y>
-					<Label><X>0</X><Y>-9</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Delay]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-							<ClassName><![CDATA[Delay]]></ClassName>
-							<ItemName><![CDATA[1412336242930]]></ItemName>
-						</GenericParameterSubstituteReference>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[type]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[delayTime]]></Name>
-							<Value Class="CodeUnitValue">
-								<Code><![CDATA[uniform(210, 660)]]></Code>
-								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[capacity]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[parkingLotWest1.nSpaces()]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maximumCapacity]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[true]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[entityLocation]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[pushProtocol]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[forceStatisticsCollection]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEnter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onAtExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onRemove]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialLocationType>XYZ</InitialLocationType>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<Id>1776410565154</Id>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
-					<Id>1776410697508</Id>
-					<Name><![CDATA[toLot0]]></Name>
-					<X>480</X><Y>-1560</Y>
-					<Label><X>0</X><Y>-20</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
-						<ClassName><![CDATA[CarMoveTo]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
-							<ClassName><![CDATA[CarMoveTo]]></ClassName>
-							<ItemName><![CDATA[1431084833294]]></ItemName>
-						</GenericParameterSubstituteReference>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[movesTo]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[self.PARKING_LOT]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[road]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[roadNorth]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[parkingLot]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[parkingLot0]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destination]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[self.END_OF_BACKWARD_LANE]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[parkingLotDestination]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[self.RANDOM]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[parkingSpaceIndex]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[stopLine]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[busStop]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[stopLineBehavior]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[throughRoads]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[avoidRoads]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[changeSelectionPolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[laneSelectionPolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[laneIndex]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[roadsideNumber]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEnter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onWayNotFound]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialLocationType>XYZ</InitialLocationType>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<Id>1776410697506</Id>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
 					<Id>1776411104004</Id>
 					<Name><![CDATA[selectUp0]]></Name>
 					<X>780</X><Y>-1470</Y>
@@ -14173,6 +13731,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[probability]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[0.35]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onAtEnter]]></Name>
@@ -14448,7 +14009,7 @@
 				<EmbeddedObject>
 					<Id>1776412048241</Id>
 					<Name><![CDATA[enterLot0]]></Name>
-					<X>320</X><Y>-1560</Y>
+					<X>570</X><Y>-1560</Y>
 					<Label><X>-65</X><Y>10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16696,7 +16257,7 @@
 				<EmbeddedObject>
 					<Id>1776785307783</Id>
 					<Name><![CDATA[sourceWest]]></Name>
-					<X>80</X><Y>-1800</Y>
+					<X>340</X><Y>-1800</Y>
 					<Label><X>-15</X><Y>25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22726,7 +22287,7 @@
 						<Parameter>
 							<Name><![CDATA[probability1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[0.3]]></Code>
+								<Code><![CDATA[0.1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -22750,7 +22311,7 @@
 						<Parameter>
 							<Name><![CDATA[probability5]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[0.4]]></Code>
+								<Code><![CDATA[0.6]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -24960,24 +24521,6 @@
 					</Points>
 
 			<Presentation>
-				<ParkingLot>
-					<Id>1772445783588</Id>
-					<Name><![CDATA[parkingLot0]]></Name>
-					<X>441.198</X><Y>108.397</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Offset>125.0</Offset>
-					<OnForwardSide>false</OnForwardSide>
-					<Type>PERPENDICULAR</Type>
-					<ParkingSpaceCount>14</ParkingSpaceCount>
-					<ParkingSpaceLength Class="UnitValue">
-						<Value Class="Double">5</Value>
-						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
-					</ParkingSpaceLength>
-				</ParkingLot>
 				<ParkingLot>
 					<Id>1772445848213</Id>
 					<Name><![CDATA[parkingLot1]]></Name>
